@@ -1,0 +1,131 @@
+/* main layout */
+#center{
+  place-items: center;
+  width: 25em;
+  height: 30em;
+}
+
+#root{
+  font-family: Georgia, serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+h1{
+  text-align: center
+}
+
+h1 img{
+  width: 30px;
+  height: 30px;
+}
+
+/* add todo form */
+.addTodo{
+  font-family: Georgia, serif;
+  border: 2px solid #d2caca;
+  border-radius:5px 0 0 5px;
+  border-right: none;
+  outline: none;
+  font-size: 20px;
+  height: 35px;
+}
+
+input::placeholder {
+  color: #767575;
+  padding-left:5px;
+  font-size: 20px;
+}
+
+.addButton{
+  width:100%;
+  height: 41px;
+  border: 2px solid #d2caca;
+  text-align: center;
+  color:  #575252;
+  background-color:#d2caca;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  font-size: 20px;
+  font-family: Georgia, serif;
+}
+
+.addButton:hover{
+  color:  #d3cccc;
+  background-color:#a79c9c;
+}
+
+.addForm{
+  place-items: center;
+  width: 23em;
+  position: relative;
+  display: flex;
+}
+
+/* todo list */
+.list{
+  width: 90%; 
+  border: 2px solid #d2caca;
+  border-radius: 0.5em;
+  margin-top: 10px;
+}
+
+.list ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.list li {
+  display:flex;
+  text-align: left;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 16px;
+  border-bottom: 2px solid #d2caca;
+
+}
+
+.list li:hover{
+  font-size: 17px;
+  background:  #d2caca;
+}
+
+.list li:last-child { /* prevents an extra divider at bottom of list */
+  border-bottom: none; 
+  margin-bottom: 0;
+  padding-bottom: 13px;
+} 
+
+input[type="checkbox"] {
+  accent-color: #111113;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
+
+
+/* delete button */
+.deleteBtn{
+  margin-left: auto;
+  margin-right: 20px;
+  border: none;   /* removes the browser's default button border and padding */
+  padding: 0; 
+  background: transparent; 
+ 
+}
+
+.deleteBtn img{
+  width: 18px;
+  height: 19px;
+  cursor:pointer;
+}
+
+.deleteBtn img:hover {
+  width: 19px;
+  height: 20px;
+}
+

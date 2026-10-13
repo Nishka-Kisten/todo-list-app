@@ -1,0 +1,22 @@
+[
+  {
+    "todo_id": 1,
+    "todo_item": "Coding practice. 30 mins of leetcode/hackerrank",
+    "completed": false
+  },
+  {
+    "todo_id": 2,
+    "todo_item": "Written prep",
+    "completed": true
+  },
+  {
+    "todo_id": 3,
+    "todo_item": "Pick 2 sources and follow them",
+    "completed": false
+  },
+  {
+    "todo_id": 4,
+    "todo_item": "Create to-do app",
+    "completed": false
+  }
+]
